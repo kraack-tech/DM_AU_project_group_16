@@ -27,6 +27,7 @@
 
 ### 2. Feedback for Checkpoint 1: Clustering
 - add a conclusion + more methods
+- 3rd experiment + conclusion is missing?
 
 ### 3. Feedback for Checkpoint 2 - Graph mining
 - add quantitative cross-method comparison: Compute ARI / NMI between the three partitions to support the claim that "all three methods found similar regimes".
