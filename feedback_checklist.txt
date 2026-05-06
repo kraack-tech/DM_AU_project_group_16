@@ -1,0 +1,16 @@
+Checkpoint 1 Feedback:
+Module 0 (EDA) + Module 1 (Clustering):
+	[ ] Fix the textual explanation issue in Preprocessing
+	[x?] Incorporate richer experiments: We expanded the hypothesis [is this enough to cover the action items?]
+	[ ] Go beyond method comparison and develop deeper, insight-driven analysis
+
+
+Checkpoint 2 Feedback:
+Module 2 (Graph mining):
+	[x] Justify k and σ in graph construction with a brief sensitivity check: Added section to justify both (ended up selecting a different k)
+	[x] Add graph diagnostics: Added just before the graph plot (the graph diagnotics provides better insight, the plot is totally overplottet)
+	[ ] Run Node2Vec with at least 2–3 different settings and compare.
+	[ ] Quantify cross-method agreement between Louvain, Spectral, and DBSCAN partitions.
+	[ ] Try to explore some more interesting findings (understanding: do sub-experiment [similar to those in Module 4] such that the insight cannot be derived with simple EDA) 
+		== "Surpriseness: Not really. The discovered regimes (workingday × season × weather) are already visible from the correlation heatmap. The graph view confirms but doesn't reveal anything that the vector view couldn't. Consider one analysis the vector view 			can't easily do could be more interesting."
+
