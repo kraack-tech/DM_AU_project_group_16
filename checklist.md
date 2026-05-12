@@ -13,7 +13,7 @@
     - Added just before the graph plot (the graph diagnotics provides better insight, the plot is totally overplottet)
 -	[ ] Run Node2Vec with at least 2–3 different settings and compare.
 -	[ ] Quantify cross-method agreement between Louvain, Spectral, and DBSCAN partitions.
--	[ ] Try to explore some more interesting findings 
+-	[x] Try to explore some more interesting findings 
     - **understanding**: do sub-experiment [similar to those in Module 4] such that the insight cannot be derived with simple EDA
         - **response to**: "Surpriseness: Not really. The discovered regimes (workingday × season × weather) are already visible from the correlation heatmap. The graph view confirms but doesn't reveal anything that the vector view couldn't. Consider one analysis the vector view can't easily do could be more interesting."
 
@@ -27,6 +27,7 @@
 
 ### 2. Feedback for Checkpoint 1: Clustering
 - add a conclusion + more methods
+- 3rd experiment + conclusion is missing?
 
 ### 3. Feedback for Checkpoint 2 - Graph mining
 - add quantitative cross-method comparison: Compute ARI / NMI between the three partitions to support the claim that "all three methods found similar regimes".
